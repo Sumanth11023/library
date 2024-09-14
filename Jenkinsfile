@@ -2,9 +2,9 @@
 pipeline {
     agent any
     stages{
-        stage('greeting'){
+        stage('add'){
             steps{
-                greet ("Raja")
+                add (10,40)
             }
         }
     }
