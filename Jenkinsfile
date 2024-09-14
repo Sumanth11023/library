@@ -7,5 +7,10 @@ pipeline {
                 add (10,40)
             }
         }
+         stage('greeting'){
+            steps{
+                greet ("Sumanth")
+            }
+        }
     }
 }
