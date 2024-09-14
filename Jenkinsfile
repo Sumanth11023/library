@@ -4,9 +4,16 @@ pipeline {
 
     stages {
         stage('greeting') {
+        //     steps {
+        //         greet ("Raja")
+        //         greet ("Mahi")
+        //     }
+        // }
+        stage('greeting') {
             steps {
-                greet ("Raja")
+                add(10,20)
             }
         }
+        
     }
 }
